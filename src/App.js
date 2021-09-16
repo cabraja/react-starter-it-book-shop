@@ -27,6 +27,11 @@ const App = () => {
             data.map((book,index) => <Book key={index} {...book}/>)
         }
         </main>
+
+        <footer>
+            <h2>BookNerd.IT</h2>
+            <h3>Made by Mihajlo Cabraja</h3>
+        </footer>
         </>
     )
 }

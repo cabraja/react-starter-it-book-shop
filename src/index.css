@@ -40,7 +40,7 @@ input:focus {
 
 main {
   width: 90%;
-  margin: 3vh auto;
+  margin: 6vh auto;
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(4, 1fr);
@@ -79,4 +79,26 @@ section a {
 section a:hover {
   background-color: #6a10fc;
   transition: 0.3s;
+}
+
+/* 
+==========================
+Footer
+==========================
+*/
+
+footer {
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+  text-align: center;
+  padding: 28px 0px 28px 0px;
+}
+
+footer h2 {
+  font-weight: 500;
+  color: whitesmoke;
+}
+footer h3 {
+  font-weight: 300;
+  color: rgb(167, 167, 167);
 }
